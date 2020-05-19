@@ -20,14 +20,14 @@ public String toString() {
         return "Total Emp Wage for Company: " +company+ " is: " + totalEmpWage;
 }
 }
-public class EmployeewageUC11 {
+public class EmployeewageUC12 {
         public static final int IS_PART_TIME = 1;
         public static final int IS_FULL_TIME = 2;
 
         private int numOfCompany = 0;
         private CompanyEmpWage[] companyEmpWageArray;
 
-        public EmployeewageUC11() {
+        public EmployeewageUC12() {
                 companyEmpWageArray = new CompanyEmpWage[5];
 
         }
@@ -66,11 +66,12 @@ public class EmployeewageUC11 {
 }
 public static void main(String[] args)
 {
-        EmployeewageUC11 empwage = new EmployeewageUC11();
+        EmployeewageUC12 empwage = new EmployeewageUC12();
         empwage.addCompanyEmpWage("DMART",20,2,10);
         empwage.addCompanyEmpWage("RELIANCE",10,4,20);
         empwage.computeEmpWage();
+   }
  }
- }
+
 
 
